@@ -15,5 +15,30 @@
 
 </div>
 
+<div class="lampada">
+    <p>neste caso o JavaScript manipula o comportamento de uma imagem</p>
+
+    <button type="button" onclick="document.getElementById('myImage').src='img/off.gif'">
+    acender lâmpada
+    </button>
+
+    <img src="img/on.gif" alt="lâmpada" id="myImage">
+
+    <button type="button" onclick="document.getElementById('myImage').src='img/on.gif'">
+        apagar lampada
+    </button>
+</div>
+<div class="fonte">
+    <p>o JavaScript pode manipular eventos de texto</p>
+
+<p id="texto">o JavaScript pode também manipular atributos styles de um texto</p>    
+    <button type="button" onclick="document.getElementById('texto').style.fontSize='35px'">aumentar texto</button>
+    <button type="button" onclick="document.getElementById('texto').style.fontSize='15px'">diminuir texto</button>
+    <button type="button" onclick="document.getElementById('texto').style.display='none'">ocultar texto</button>
+    <button type="button" onclick="document.getElementById('texto').style.display='block'">mostrar texto</button>
+
+
+</div>
+
 </body>
 </html>
